@@ -1,0 +1,316 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome5}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape {Kunal Agrawal}} \\ \vspace{1pt}
+    Mumbai, India \\ \vspace{1pt}
+    \small \href{tel:+919867174368}{ \raisebox{-0.1\height}{\faPhone*}\ \underline{+91-9867174368} ~} \href{mailto:kunalagrawal@tutanota.com}{\raisebox{-0.2\height}{\faEnvelope[regular]}\  \underline{kunalagrawal@tutanota.com}} ~ 
+    \href{https://linkedin.com/in/kunalragrawal}{\raisebox{-0.2\height}\faLinkedinIn\ \underline{kunalragrawal}}  ~
+    \href{https://github.com/kunalagra}{\raisebox{-0.2\height}\faGithub\ \underline{kunalagra}} ~
+    \href{https://kunalagrawal.vercel.app/}{\raisebox{-0.2\height}{\faLink}\ \underline{Portfolio}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Mumbai}{08 2020 -- 05 2024}
+      {B.Tech - Artificial Intelligence and Data Science}{\textbf{CGPI - 9.75}}
+        \resumeItem{\normalsize{\textbf{Courses:} DSA, OS, DBMS, CN, Distributed Computing, Data Warehousing \& Mining, Deep Learning}}
+  
+      
+  \resumeSubHeadingListEnd
+  
+  % \resumeSubHeadingListEnd
+
+% %------RELEVANT COURSEWORK-------
+% \section{COURSEWORK / SKILLS}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-2pt, parsep=5pt]
+%                 \item Data Structures \& Algorithms
+%                 \item Operating Systems 
+%                 \item Network Security
+%                 \item Database Management System (DBMS)
+%                 \item Artificial Intelligence
+%                 \item OOPS Concept
+%                 \item Web Development
+%                 \item Android Development
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Freelancing \href{https://kumail.shop/}{\raisebox{-0.1\height}{{\faExternalLink*}} }}{11 2023 -- 01 2024} 
+      {\underline{Freelancer}}{Remote}
+      \resumeItemListStart
+        \resumeItem{\normalsize{Developed \& deployed an E-Commerce website with \textbf{6K+ products} using NextJS, NodeJS \& MongoDB. }}
+        \resumeItem{\normalsize{Improved page speed from \textbf{9s to under 2s}, improved accessibility, reduced CLS, \textbf{optimized DB queries.}}}
+        \resumeItem{\normalsize{Performed SEO to improve rankings, support for Rich Results and built \textbf{automation for Social Media.}}}  
+      \resumeItemListEnd  
+    \resumeSubheading
+      {Prodigy InfoTech}{06 2023 -- 12 2023} 
+      {\underline{SDE Intern}}{Remote}
+      \resumeItemListStart
+          \resumeItem{\normalsize{Developed and maintained various features of the company's web applications using Node.js and MongoDB.}}
+          \resumeItem{\normalsize{Created custom \textbf{automation on Google App Scripts} that streamlined various manual processes.}}
+      \resumeItemListEnd  
+    \resumeSubheading
+      {Social Summer of Code'22 \href{https://devfolio.co/projects/open-sauce-fun-3517}{\raisebox{-0.1\height}{\faExternalLink*} }}{08 2022 -- 10 2022} 
+      {\underline{ML Intern}}{Remote}
+      \resumeItemListStart
+        \resumeItem{\normalsize{Ranked \textbf{16 out of 500+} contributors. Developed Sea Animal Detection model and more using \textbf{tenserflow}.}}  
+      \resumeItemListEnd  
+
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{https://medicall.onrender.com}{\textbf{\large{\underline{MediCall - AIO Digital Hospital}}} \href{https://medicall.onrender.com}{\raisebox{-0.1\height}{\faExternalLink*} }} $|$ \large{\underline{ReactJS, Flask, MongoDB, Jitsi}}}{05 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Led a team of 4 in building a web app for remotely connecting patients with suitable doctors for diagnostics under \textbf{Solving for India Hackathon hosted by Google, AMD \& GFG}. Secured a spot in \textbf{regionals}.}}
+            \resumeItem{\normalsize{Features includes Patient \& Doctor's dashboard, Patient's Prescription, Live video calls, Whatsapp \& Email Integration, Disease Prediction Models \& Chatbot, E-Pharmacy \& Wallet with Stripe.}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{https://github.com/kunalagra/SumUp}{\textbf{\large{\underline{SumUp - Summarize Team Meetings}}} \href{https://github.com/kunalagra/SumUp}{\raisebox{-0.1\height}{\faExternalLink*} }} $|$ \large{\underline{ReactJS, Django, MongoDB, Whisper}}}{03 2023}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Successfully led a team of 4 in developing a web app to \textbf{generate concise meeting minutes} during \textbf{Mastek's Project Deep Blue Hackathon}, earning a place in the \textbf{Semifinals.}}}
+            \resumeItem{\normalsize{Used multi-model approach to generate accurate meeting summaries from \textbf{text, audio, and video.}}}
+            \resumeItem{\normalsize{Developed and integrated a \textbf{Chrome Extension} to work with Google Meet to provide \textbf{Live captioning, Cloud storage and highlighter.}}}
+
+            % \resumeItem{\textcolor{accent} {\href{Project Link} {\underline{\normalsize{Download}}}}}
+          \resumeItemListEnd
+          % \vspace{-13pt}
+          
+          % \resumeProjectHeading
+          % {\href{ProjectLink.com}{\textbf{\large{\underline{Project Name}}} \href{Project Link}{\raisebox{-0.1\height}{\faExternalLink*} }} $|$ \large{\underline{Technology Stack Used}}}{MM YYYY}
+          % \resumeItemListStart
+          %   \resumeItem{\normalsize{About Project \textbf{highlight key points} }}
+            
+          % \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Mind Benders Club - TCET}{07 2022 -- 06 2023}
+        {\underline{Founder \& President}}{Mumbai, India}
+            \resumeItemListStart
+                \resumeItem{\normalsize{\textbf{Kick-started the club} to oversee the development of students in upcoming technologies (AI/DS/ML).}}
+                \resumeItem{\normalsize{Led a team of 12 to conduct \textbf{8 workshops} with over \textbf{1K+ participants} and 1 Hackathon with \textbf{25+ teams}.}}
+                \resumeItem{\normalsize{Supervised day-to-day activities, oversee the development of Website \& Blog with \textbf{CI/CD pipelines.}}}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+
+ 
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, C, C++, JavaScript, SQL, NoSQL, R, XML, Kotlin, PHP}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Git, Android Studio, Power BI, Tableau, GCP, Google App Scripts}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{ \normalsize{Linux, GitHub, Django, Flask, NodeJS, MongoDB, MySQL, Firebase, NextJS}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+ 
+ %-----------CERTIFICATIONS---------------
+\section{ACHIEVEMENTS \& CERTIFICATIONS}
+ \vspace{-1pt}
+
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-4pt]
+                \item 700+ DSA Problems Solved
+                \item \href{https://www.codechef.com/users/ruthlessruler}{\textbf{3 Stars} - CodeChef {\raisebox{-0.1\height}{\faExternalLink*}} }
+                \item Hacktoberfest 21, 22 \& 23
+                \item 3rd @ AndroidBuzz Hackathon
+                \item Semi Finalist @ SIH'23
+                \item Semi Finalist @ Hacknova 2
+                \item \href{https://coursera.org/share/c715d24542b410805a2ff3034949858d}{Machine Learning - Stanford {\raisebox{-0.1\height}{\faExternalLink*} }}
+                \item \href{https://learn.next.courses.nvidia.com/certificates/b38a698150c5410c9afeb954cf87468c}{Fundamentals of DL - Nvidia {\raisebox{-0.1\height}{\faExternalLink*} }}
+                \item \href{https://drive.google.com/file/d/1Oaf6gFga_AUU0Hix6qJHQsRd7Hopzjin/view}{FOSSE C++ - IIT Bombay {\raisebox{-0.1\height}{\faExternalLink*} }}
+
+            \end{itemize}
+        \end{multicols}
+
+% $\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{700+ DSA Problems Solved }} \hspace{0.5cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{3rd @ AndroidBuzz Hackathon'22}} \hspace{0.5cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{https://coursera.org/share/c715d24542b410805a2ff3034949858d}{Stanford Machine Learning \href{https://coursera.org/share/c715d24542b410805a2ff3034949858d}{\raisebox{-0.1\height}{\faExternalLink*} }}}\hspace{1.45cm}
+
+
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{\textbf{3 Stars} on \textbf{CodeChef} \href{https://www.codechef.com/users/ruthlessruler}{\raisebox{-0.1\height}{\faExternalLink*} }}}\hspace{1.45cm}
+% $\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Semi Finalist, SIH'22
+% }} \hspace{2.6cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{Blogger with over 3M+ page hits.}} \\
+
+
+% $\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Hacktoberfest 21, 22 \& 23}} \hspace{1.6cm}
+%  \\
+
+\end{document}
