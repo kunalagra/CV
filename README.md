@@ -4,7 +4,7 @@ This repository contains my Curriculum Vitae (CV) written in LaTeX format.
 
 ## Contents
 
-- [CV LaTeX File](main.tex): The LaTeX source file for my CV.
+- [CV LaTeX File](main.tex): The LaTeX source file for my CV. 
 
 ## How to Use
 
@@ -15,7 +15,7 @@ You can simply download the PDF file [here](https://kunalagrawal.vercel.app/cv) 
 ### Editing the LaTeX Source
 
 If you wish to modify the content or formatting of my CV, you can edit the LaTeX source file [cv.tex](cv.tex) using any text editor or LaTeX editor of your choice.
-I have used Overleaf (a web-based LaTeX editor).
+I have used Overleaf (a web-based LaTeX editor) for this.
 
 ## License
 
