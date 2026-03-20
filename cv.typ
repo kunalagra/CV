@@ -111,10 +111,9 @@
 // ----------- TECHNICAL SKILLS -----------
 #section("TECHNICAL SKILLS")
 #pad(left: 0.15in)[
-  *Languages:* Python, TypeScript, JavaScript, SQL, C++ \
+  *Languages:* Python, TypeScript, JavaScript, SQL \
   *Cloud & Infra:* AWS (Lambda, S3, SQS, CloudWatch), GCP, Docker, Kubernetes, Databricks \
-  *Technologies:* FastAPI, MongoDB, PySpark, Next.js, LoopBack \
-  *Developer Tools:* Git, GitHub, Linux, VS Code
+  *Frameworks & Tools:* FastAPI, MongoDB, PySpark, Next.js, LoopBack, GitHub, Linux \
 ]
 
 // ----------- ACHIEVEMENTS & CERTIFICATIONS -----------
