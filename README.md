@@ -1,10 +1,10 @@
 # CV
 
-This repository contains my Curriculum Vitae (CV) written in LaTeX format. 
+This repository contains my Curriculum Vitae (CV) written in Typst format. 
 
 ## Contents
 
-- [CV LaTeX File](main.tex): The LaTeX source file for my CV. 
+- [CV Typst File](cv.typ): The Typst source file for my CV. 
 
 ## How to Use
 
@@ -12,10 +12,10 @@ This repository contains my Curriculum Vitae (CV) written in LaTeX format.
 
 You can simply download the PDF file [here](https://kunalagrawal.vercel.app/cv) to view my CV.
 
-### Editing the LaTeX Source
+### Editing the Typst Source
 
-If you wish to modify the content or formatting of my CV, you can edit the LaTeX source file [cv.tex](cv.tex) using any text editor or LaTeX editor of your choice.
-I have used Overleaf (a web-based LaTeX editor) for this.
+If you wish to modify the content or formatting of my CV, you can edit the Typst source file [cv.typ](cv.typ) using any text editor or Typst editor of your choice.
+I have used Typst (https://typst.app/) for this.
 
 ## License
 
