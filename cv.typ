@@ -46,14 +46,25 @@
 // ----------- EDUCATION -----------
 #section("EDUCATION")
 #entry(
-  "University of Mumbai", "Aug 2020 -- May 2024",
+  "University of Mumbai", "08/2020 -- 05/2024",
   "B.Tech - Artificial Intelligence and Data Science", [*CGPI - 9.79*],
 )
 
 // ----------- EXPERIENCE -----------
 #section("EXPERIENCE")
 #entry(
-  [Testlify #link("https://testlify.com/")[#fa-icon("external-link-alt", size: 0.8em)]], "Aug 2024 -- Current",
+  [Prodigal Technologies #link("https://prodigaltech.com/")[#fa-icon("external-link-alt", size: 0.8em)]], "06/2025 -- Present",
+  [#underline("Solution Engineer") | #underline("Python, AWS, Kubernetes, FastAPI, Next.js")], "Mumbai, India",
+)
+#items(
+  [Fine-tuned and deployed LLMs for a real-time call notes service processing 170K+ daily calls. Designed an end-to-end  pipeline to standardize model fine tuning workflow. Built custom event detection based on client-specific industry needs.],
+  [Identified and fixed multiple bottlenecks in the publishing pipeline achieving *30–40% latency reduction* by adding multi-threading and more. Migrated builds to UV with optimised Docker images, halving CI times and image sizes.],
+  [Built Databricks pipelines for client reporting and workflows, cutting manual effort for multiple teams. Developed two internal Next.js apps adopted org-wide, enabling CSMs and Support to self-serve, saving engineering bandwidth.
+],
+)
+
+#entry(
+  [Testlify #link("https://testlify.com/")[#fa-icon("external-link-alt", size: 0.8em)]], "08/2024 -- 06/2025",
   [#underline("Backend Developer") | #underline("Loopback 4, Nuxt, MongoDB, Docker, GCP")], "Mumbai, India",
 )
 #items(
@@ -62,22 +73,12 @@
   [*Developed* a *scalable*, multi-file coding assessment format using *Docker*, *Google Cloud Run*, and *Google Cloud Filestore* to serve *VS Code* Instance, *streamlining* the technical hiring process for recruiters.],
 )
 
-#entry(
-  [Freelancing #link("https://kumail.shop/")[#fa-icon("external-link-alt", size: 0.8em)]], "Dec 2023 -- Apr 2024",
-  [#underline("Freelancer") | #underline("Next.js, Express.js, MongoDB, Google App Scripts")], "Remote",
-)
-#items(
-  [Developed an e-Commerce platform using Next.js, Express.js, and MongoDB featuring over 6K+ products.],
-  [Drove a *200% increase in page views* and a *15% increase in orders* through *LLM-powered* content optimization, including keyword enhancement, product descriptions, and automated social media promotion.],
-  [Improved website performance, achieving an *80% increase in page speed*, a *70% reduction in CLS*, and enhanced accessibility, leading to a *better user experience* and a *50% higher Google site ranking*.],
-)
-
 // ----------- PROJECTS -----------
 #section("PROJECTS")
 #v(1pt)
 #grid(columns: (1fr, auto),
   [#link("https://github.com/kunalagra/UniMoney")[#underline[*UniMoney - Manage Your Money*] #fa-icon("external-link-alt", size: 0.8em)] | #underline("React Native, Node.js, MongoDB")],
-  text(size: 9pt, weight: "bold", "May 2024"),
+  text(size: 9pt, weight: "bold", "05/2024"),
 )
 #v(-3pt)
 #items(
@@ -88,7 +89,7 @@
 #v(1pt)
 #grid(columns: (1fr, auto),
   [#link("https://codegamy.vercel.app/")[#underline[*Codegamy - Learn, Compete & Collaborate*] #fa-icon("external-link-alt", size: 0.8em)] | #underline("Next.js, Node.js, MongoDB, Jitsi")],
-  text(size: 9pt, weight: "bold", "Mar 2024"),
+  text(size: 9pt, weight: "bold", "03/2024"),
 )
 #v(-3pt)
 #items(
@@ -99,7 +100,7 @@
 // ----------- EXTRACURRICULAR -----------
 #section("EXTRACURRICULAR")
 #entry(
-  "Mind Benders Club - TCET", "Jul 2022 -- Jun 2023",
+  "Mind Benders Club - TCET", "07/2022 -- 06/2023",
   [#underline("Founder & President")], "Mumbai, India",
 )
 #items(
@@ -110,9 +111,10 @@
 // ----------- TECHNICAL SKILLS -----------
 #section("TECHNICAL SKILLS")
 #pad(left: 0.15in)[
-  *Languages:* Typescript, Javascript, Python, C++, C, SQL \
-  *Developer Tools:* VS Code, Linux, Git, GitHub, Google Cloud, Azure \
-  *Technologies/Frameworks:* Node.js, LoopBack, MongoDB, Next.js, Nuxt.js, Flask, Django
+  *Languages:* Python, TypeScript, JavaScript, SQL, C++ \
+  *Cloud & Infra:* AWS (Lambda, S3, SQS, CloudWatch), GCP, Docker, Kubernetes, Databricks \
+  *Technologies:* FastAPI, MongoDB, PySpark, Next.js, LoopBack \
+  *Developer Tools:* Git, GitHub, Linux, VS Code
 ]
 
 // ----------- ACHIEVEMENTS & CERTIFICATIONS -----------
@@ -124,18 +126,15 @@
     #set list(spacing: 2pt)
     - 700+ DSA Problems Solved
     - #link("https://www.codechef.com/users/ruthlessruler")[*3 Stars* - CodeChef #fa-icon("external-link-alt", size: 0.8em)]
-    - Hacktoberfest 21, 22 & 23
   ],
   [
+    #set list(spacing: 2pt)
+    - Semi Finalist @ SIH'23
+    - #link("https://coursera.org/share/c715d24542b410805a2ff3034949858d")[Machine Learning - Stanford #fa-icon("external-link-alt", size: 0.8em)]
+  ],
+    [
     #set list(spacing: 2pt)
     - 3rd @ AndroidBuzz Hackathon
-    - Semi Finalist @ SIH'23
-    - Semi Finalist @ Hacknova 2
-  ],
-  [
-    #set list(spacing: 2pt)
-    - #link("https://coursera.org/share/c715d24542b410805a2ff3034949858d")[Machine Learning - Stanford #fa-icon("external-link-alt", size: 0.8em)]
-    - #link("https://courses.nvidia.com/certificates/b38a698150c5410c9afeb954cf87468c/")[Fundamentals of DL - Nvidia #fa-icon("external-link-alt", size: 0.8em)]
-    - #link("https://drive.google.com/file/d/10mALMGuQrSt5Pmxue66Xjh8aFSsbpBtX/view")[FOSSE C++ - IIT Bombay #fa-icon("external-link-alt", size: 0.8em)]
+    - #link("https://courses.nvidia.com/certificates/b38a698150c5410c9afeb954cf87468c/")[Fundamentals of DL - NVIDIA #fa-icon("external-link-alt", size: 0.8em)]
   ],
 )
