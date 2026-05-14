@@ -53,7 +53,7 @@
 // ----------- EXPERIENCE -----------
 #section("EXPERIENCE")
 #entry(
-  [Prodigal Technologies #link("https://prodigaltech.com/")[#fa-icon("external-link-alt", size: 0.8em)]], "06/2025 -- Present",
+  [Prodigal (YC S18) #link("https://prodigaltech.com/")[#fa-icon("external-link-alt", size: 0.8em)]], "06/2025 -- Present",
   [#underline("Solution Engineer") | #underline("Python, AWS, Kubernetes, FastAPI, Next.js")], "Mumbai, India",
 )
 #items(
