@@ -17,6 +17,11 @@ You can simply download the PDF file [here](https://kunalagrawal.com/cv) to view
 If you wish to modify the content or formatting of my CV, you can edit the Typst source file [cv.typ](cv.typ) using any text editor or Typst editor of your choice.
 I have used Typst (https://typst.app/) for this.
 
+To build CV locally you can use: 
+```sh
+typst compile --pdf-standard ua-1 cv.typ CV.pdf
+```
+
 ## License
 
 This CV is provided under the [MIT License](LICENSE). Feel free to use it as a template for your own CV, but please attribute appropriately.
