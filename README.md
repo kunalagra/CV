@@ -10,7 +10,7 @@ This repository contains my Curriculum Vitae (CV) written in Typst format.
 
 ### Viewing the PDF
 
-You can simply download the PDF file [here](https://kunalagrawal.vercel.app/cv) to view my CV.
+You can simply download the PDF file [here](https://kunalagrawal.com/cv) to view my CV.
 
 ### Editing the Typst Source
 
@@ -23,4 +23,4 @@ This CV is provided under the [MIT License](LICENSE). Feel free to use it as a t
 
 ## Contact
 
-If you have any questions or inquiries, feel free to contact me at [contact](https://kunalagrawal.vercel.app/links).
+If you have any questions or inquiries, feel free to contact me at [contact](https://kunalagrawal.com/links).
